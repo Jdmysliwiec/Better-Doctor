@@ -22,7 +22,7 @@ $ (function() {
   var newDoctorSearch = new DoctorSearch();
   $('#medical-condition').submit(function(event) {
     event.preventDefault();
-    var issue = $('#medical-issue').val();
+    var medicalIssue = $('#medical-issue').val();
     newDoctorSearch.locateDoctors(issue, displayDoctors);
   });
 });
