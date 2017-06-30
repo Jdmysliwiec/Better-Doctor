@@ -1,0 +1,19 @@
+.doctor {
+  background-color: white;
+  min-height: 100px;
+  width: 600px;
+  border-radius: 6px;
+  padding: 20px 40px;
+  margin: 20px 0px;
+  h2 {
+    text-align: center;
+    margin: 5;
+  }
+  ul {
+    padding: 0;
+    li {
+      list-style: none;
+      font-size: 1.7rem;
+    }
+  }
+}

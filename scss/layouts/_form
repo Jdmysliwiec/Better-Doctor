@@ -1,0 +1,25 @@
+#medical-condition {
+
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  h1, h4 {
+    align-self: center;
+  }
+
+
+  button {
+    margin: 20px auto;
+
+  }
+  .form-group {
+    margin: 10px;
+
+    label {
+      width: 48%;
+    }
+    input {
+      width: 48%;
+    }
+  }
+}
