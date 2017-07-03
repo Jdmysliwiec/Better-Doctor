@@ -23,6 +23,6 @@ $ (function() {
   $('#medical-condition').submit(function(event) {
     event.preventDefault();
     var medicalIssue = $('#medical-issue').val();
-    newDoctorSearch.locateDoctors(issue, displayDoctors);
+    newDoctorSearch.locateDoctors(medicalIssue, displayDoctors);
   });
 });
